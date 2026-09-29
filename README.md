@@ -19,9 +19,9 @@ Looking for a 4 to 6 month internship from October 2026.
 - Estimated one-day 99% VaR and Expected Shortfall for a EUR multi-asset portfolio (EU/US equities, Treasuries, crypto) with historical, normal, Student-t and Monte Carlo models.
 - Backtested them over 5 years with Kupiec and Christoffersen tests: normal VaR was rejected (20 breaches vs 12 expected), Student-t matched the breach rate.
 
-### [Delta Hedging SPY Options](https://github.com/gianni04/spy-delta-hedging)
-- Simulated daily delta hedging of one-month SPY straddles, first on simulated prices, then on real data 2010-2025 (191 monthly trades).
-- Showed that the hedged P&L follows implied minus realised variance (correlation 0.78), and that the apparent edge of selling at the VIX level disappears at a realistic at-the-money volatility.
+### [Option Pricing in Python](https://github.com/gianni04/option-pricing-python)
+- Built Black-Scholes, binomial tree and Monte Carlo pricers (vanilla and barrier options), checked against each other and against put-call parity.
+- Computed the Greeks, simulated delta hedging and analysed classic option strategies (spreads, straddles, butterflies).
 
 ---
 
@@ -29,6 +29,7 @@ Looking for a 4 to 6 month internship from October 2026.
 
 | Project | Content |
 |---|---|
+| [spy-delta-hedging](https://github.com/gianni04/spy-delta-hedging) | Monthly delta-hedged SPY straddles 2010-2025: P&L vs implied minus realised variance |
 | [options-hedging-risk](https://github.com/gianni04/options-hedging-risk) | Larger options study: volatility surface approximated from CBOE indices, VaR of a delta-hedged book |
 | [euro-area-yield-curve](https://github.com/gianni04/euro-area-yield-curve) | ECB yield curves rebuilt and checked against published rates, PCA, relative value backtest |
 | [market-risk-var-engine](https://github.com/gianni04/market-risk-var-engine) | VaR/ES with five methods, Kupiec and Christoffersen backtests, stress tests |
