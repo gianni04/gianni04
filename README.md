@@ -20,7 +20,7 @@ Looking for a 4 to 6 month internship from October 2026.
 - Backtested them over 5 years with Kupiec and Christoffersen tests: normal VaR was rejected (20 breaches vs 12 expected), Student-t matched the breach rate.
 
 ### [Option Pricing in Python](https://github.com/gianni04/option-pricing-python)
-- Built Black-Scholes, binomial tree and Monte Carlo pricers (vanilla and barrier options), checked against each other and against put-call parity.
+- Built Black-Scholes and binomial tree pricers (European and American options) and a Monte Carlo pricer for a barrier option, checked against closed-form prices and put-call parity.
 - Computed the Greeks, simulated delta hedging and analysed classic option strategies (spreads, straddles, butterflies).
 
 ---
