@@ -4,7 +4,7 @@
 
 **Finance quantitative · Gestion des risques · Asset management**
 
-Étudiant en Bachelor Economics & Finance à l'Université du Luxembourg (diplôme prévu en janvier 2027).<br>
+Étudiant en Bachelor Economics & Finance à l'Université du Luxembourg (diplôme prévu en juillet 2027).<br>
 Je construis en Python et VBA les outils d'une fonction risque ou gestion d'actifs : VaR, stress tests, pricing de dérivés, optimisation de portefeuille, reporting.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gianni%20Pilotti-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gianni-pilotti-9152832a4/)
