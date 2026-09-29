@@ -16,13 +16,11 @@ Je construis en Python et VBA les outils d'une fonction risque ou gestion d'acti
 
 ## Projets
 
-### Risque de marché, liquidité et ESG
+### Risque de marché
 
 | Projet | Contenu | |
 |---|---|---|
 | [**market-risk-var-engine**](https://github.com/gianni04/market-risk-var-engine) | VaR/ES par 5 méthodes, backtesting Kupiec / Christoffersen / Traffic Light de Bâle, stress tests, tracking error ex-ante | ![](https://img.shields.io/badge/tests-65-brightgreen) |
-| [**liquidity-risk-toolkit**](https://github.com/gianni04/liquidity-risk-toolkit) | Temps et coût de liquidation, exécution optimale Almgren-Chriss, stress de rachats, swing pricing | ![](https://img.shields.io/badge/tests-69-brightgreen) |
-| [**climate-risk-itr**](https://github.com/gianni04/climate-risk-itr) | Implied Temperature Rise, empreinte carbone PCAF, alignement SBTi, stress de transition NGFS | ![](https://img.shields.io/badge/tests-30-brightgreen) |
 | [**risk-stress-testing-engine**](https://github.com/gianni04/risk-stress-testing-engine) | VaR/CVaR 99 % (3 méthodes) et rejeu des crises 2008, 2020 et 2022 sur un portefeuille de 10 M$ | |
 
 ### Dérivés et produits structurés
@@ -37,7 +35,6 @@ Je construis en Python et VBA les outils d'une fonction risque ou gestion d'acti
 | Projet | Contenu |
 |---|---|
 | [**portfolio-optimization-engine**](https://github.com/gianni04/portfolio-optimization-engine) | Markowitz, Black-Litterman et Risk Parity comparés sur 10 actions US |
-| [**factor-investing-backtest**](https://github.com/gianni04/factor-investing-backtest) | Score Momentum / Value / Quality, backtest mensuel vs S&P 500, Information Coefficient |
 | [**equity-valuation-toolkit**](https://github.com/gianni04/equity-valuation-toolkit) | DCF (WACC CAPM, Gordon), comparables EV/EBITDA, grille de sensibilité |
 
 ### Recherche
@@ -51,7 +48,7 @@ Je construis en Python et VBA les outils d'une fonction risque ou gestion d'acti
 
 ## Compétences
 
-**Finance** : VaR / ES et backtesting réglementaire · stress testing · risque de liquidité · pricing d'options et Grecques · produits structurés · optimisation de portefeuille · facteurs · DCF et comparables · risque climatique (PCAF, SBTi, NGFS)
+**Finance** : VaR / ES et backtesting réglementaire · stress testing · pricing d'options et Grecques · produits structurés · optimisation de portefeuille · DCF et comparables
 
 **Outils**
 
