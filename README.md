@@ -19,10 +19,6 @@ Looking for a 4 to 6 month internship from October 2026.
 - Simulated the daily delta hedging of S&P 500 options (SPY) in Python: the P&L depends on realised versus expected volatility.
 - Rebuilt a daily volatility surface from CBOE indices, found that the VIX overstates at-the-money option volatility, and compared VaR methods on the hedged position.
 
-### [Euro Area Yield Curve](https://github.com/gianni04/euro-area-yield-curve)
-- Rebuilt the ECB's euro area yield curves from its published model parameters, matching the published rates almost exactly.
-- Found a change in the ECB's calculation method in May 2023 that was never applied to past data, and broke curve movements into level, slope and curvature.
-
 ### [Portfolio Value at Risk](https://github.com/gianni04/portfolio-value-at-risk)
 - Estimated Value at Risk and Expected Shortfall on a diversified portfolio using real market data.
 - Compared historical, parametric and Monte Carlo methods: the parametric method underestimates large losses.
@@ -33,6 +29,7 @@ Looking for a 4 to 6 month internship from October 2026.
 
 | Project | Content |
 |---|---|
+| [euro-area-yield-curve](https://github.com/gianni04/euro-area-yield-curve) | ECB yield curves rebuilt and checked against published rates, PCA, relative value backtest |
 | [market-risk-var-engine](https://github.com/gianni04/market-risk-var-engine) | VaR/ES with five methods, Kupiec and Christoffersen backtests, stress tests |
 | [risk-stress-testing-engine](https://github.com/gianni04/risk-stress-testing-engine) | VaR/CVaR of an equity portfolio and replay of the 2008, 2020 and 2022 crises |
 | [structured-products-greeks](https://github.com/gianni04/structured-products-greeks) | Option greeks, implied volatility, Monte Carlo pricing of autocallables |
