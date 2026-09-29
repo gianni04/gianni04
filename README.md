@@ -15,13 +15,13 @@ Looking for a 4 to 6 month internship from October 2026.
 
 ## Main projects
 
-### [Options Hedging & Risk](https://github.com/gianni04/options-hedging-risk)
-- Simulated the daily delta hedging of S&P 500 options (SPY) in Python: the P&L depends on realised versus expected volatility.
-- Rebuilt a daily volatility surface from CBOE indices, found that the VIX overstates at-the-money option volatility, and compared VaR methods on the hedged position.
+### [Portfolio VaR: Models & Backtest](https://github.com/gianni04/portfolio-value-at-risk)
+- Estimated one-day 99% VaR and Expected Shortfall for a EUR multi-asset portfolio (EU/US equities, Treasuries, crypto) with historical, normal, Student-t and Monte Carlo models.
+- Backtested them over 5 years with Kupiec and Christoffersen tests: normal VaR was rejected (20 breaches vs 12 expected), Student-t matched the breach rate.
 
-### [Portfolio Value at Risk](https://github.com/gianni04/portfolio-value-at-risk)
-- Estimated Value at Risk and Expected Shortfall on a diversified portfolio using real market data.
-- Compared historical, parametric and Monte Carlo methods: the parametric method underestimates large losses.
+### [Delta Hedging SPY Options](https://github.com/gianni04/spy-delta-hedging)
+- Simulated daily delta hedging of one-month SPY straddles, first on simulated prices, then on real data 2010-2025 (191 monthly trades).
+- Showed that the hedged P&L follows implied minus realised variance (correlation 0.78), and that the apparent edge of selling at the VIX level disappears at a realistic at-the-money volatility.
 
 ---
 
@@ -29,6 +29,7 @@ Looking for a 4 to 6 month internship from October 2026.
 
 | Project | Content |
 |---|---|
+| [options-hedging-risk](https://github.com/gianni04/options-hedging-risk) | Larger options study: volatility surface approximated from CBOE indices, VaR of a delta-hedged book |
 | [euro-area-yield-curve](https://github.com/gianni04/euro-area-yield-curve) | ECB yield curves rebuilt and checked against published rates, PCA, relative value backtest |
 | [market-risk-var-engine](https://github.com/gianni04/market-risk-var-engine) | VaR/ES with five methods, Kupiec and Christoffersen backtests, stress tests |
 | [risk-stress-testing-engine](https://github.com/gianni04/risk-stress-testing-engine) | VaR/CVaR of an equity portfolio and replay of the 2008, 2020 and 2022 crises |
