@@ -1,7 +1,10 @@
 # Gianni Pilotti
 
-Economics & Finance student at the University of Luxembourg (graduating July 2027).
-Looking for a 4 to 6 month internship in risk or markets from October 2026.
+Final-year Economics student at the University of Luxembourg, looking for a 4–6 month internship in risk management or treasury.
+
+I like understanding how risk is measured and managed: market risk, hedging, liquidity. Outside my studies I build my own projects in Python and Excel to put that into practice.
+
+I'm also very interested in agentic AI and how it can support finance teams in monitoring, reporting and analysis, with humans staying in control of decisions.
 
 [LinkedIn](https://www.linkedin.com/in/gianni-pilotti-9152832a4/)
 
