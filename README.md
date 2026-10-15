@@ -11,7 +11,7 @@ I'm also very interested in agentic AI and how it can support finance teams in m
 ## Risk
 
 **[portfolio-value-at-risk](https://github.com/gianni04/portfolio-value-at-risk)**
-One-day 99% VaR and Expected Shortfall of a EUR multi-asset portfolio, with historical, normal, Student-t and Monte Carlo models. A 5-year Kupiec / Christoffersen backtest rejects the normal model; Student-t fits the breach rate.
+One-day 99% VaR and Expected Shortfall of a EUR multi-asset portfolio, with historical, normal, Student-t and Monte Carlo models. A 5-year Kupiec / Christoffersen backtest (Kupiec, 1995; Christoffersen, 1998) rejects the normal model; Student-t fits the breach rate.
 
 ## Options
 
@@ -32,3 +32,8 @@ A bot I use every day: it checks Luxembourg bank career pages and sends new inte
 ## Tools
 
 Python (NumPy, pandas, SciPy, pytest), Jupyter, Excel / VBA, Git.
+
+## References
+
+Christoffersen, P. (1998). Evaluating interval forecasts. International Economic Review, 39(4), 841-862. https://doi.org/10.2307/2527341  
+Kupiec, P. (1995). Techniques for verifying the accuracy of risk measurement models. Journal of Derivatives, 3(2), 73-84. https://doi.org/10.3905/jod.1995.407942
